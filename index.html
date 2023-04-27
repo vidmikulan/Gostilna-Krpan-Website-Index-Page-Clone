@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Gostilna KRPAN - Malice, kosila, pice, sladice, A la cart jedi.
+    </title>
+    <link rel="icon" href="slike/logoBlack.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/f2583ae3c5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT SHARE -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=fira-sans@400,300,101,600,100,900,201,301,901,601,200,800,501,500,701,801,401,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font share -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT GENERAL SANS -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@701,200,500,301,201,300,601,600,401,501,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT BITTER -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SPLIDE -->
+    <link
+      rel="stylesheet"
+      href="splide-4.1.3/splide-4.1.3/dist/css/splide.min.css"
+    />
+  </head>
+  <body>
+    <script type="text/javascript" src="script.js"></script>
+    <div class="container">
+      <!-- MOBILE HIDDEN MENU DIV -->
+      <div class="mobile-hidden-menu-div">
+        <div class="mobile-hidden-trans"></div>
+        <!-- transparent div -->
+        <div class="mhnd-x-button">&#10005;</div>
+        <div class="mhm-ul">
+          <div class="mhm-li focusedd">
+            <div class="mhm-a">DOMOV</div>
+          </div>
+          <div class="mhm-li mobile-ponudba-button">
+            <div class="mhm-a">
+              PONUDBA
+              <span id="mobile-ponudba-arrow"
+                ><i class="fa-solid fa-angle-down"></i
+              ></span>
+            </div>
+          </div>
+          <div class="mhm-li-p-hidden">
+            <div class="mhm-p-hidden-ul">
+              <div class="mhm-p-hidden-li">PONUDBA</div>
+              <div class="mhm-p-hidden-li">JEDILNIK</div>
+              <div class="mhm-p-hidden-li">CATERING</div>
+              <div class="mhm-p-hidden-li">ZAKLJUČENE DRUŽBE</div>
+              <div class="mhm-p-hidden-li">DOGODKI</div>
+              <div class="mhm-p-hidden-li">POROKE</div>
+            </div>
+          </div>
+          <div class="mhm-li">
+            <div class="mhm-a">MALICE</div>
+          </div>
+          <div class="mhm-li">
+            <div class="mhm-a">O NAS</div>
+          </div>
+          <div class="mhm-li">
+            <div class="mhm-a">SLAŠČIČARNA</div>
+          </div>
+          <div class="mhm-li">
+            <div class="mhm-a">DOSTAVA</div>
+          </div>
+          <div class="mhm-li">
+            <div class="mhm-a">KONTAKT</div>
+          </div>
+        </div>
+
+        <div class="mhm-TE-div">
+          <p id="mhm-TE-p">T: 03 81 71 100</p>
+          <p id="mhm-TE-p">E: info@gostilnakrpan.com</p>
+        </div>
+
+        <div class="mhm-socials-div">
+          <div class="hrd-socials-icon-mobile" id="header-social-f">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div class="hrd-socials-icon-mobile" id="header-social-i">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="hrd-socials-icon-mobile">
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+        </div>
+      </div>
+      <!-- HEADER -->
+      <div class="header">
+        <!-- hidden mobile menu button -->
+        <div class="header-mobile-menu-button-div">
+          <div class="hmmb-container">
+            <div class="header-mobile-menu-button hmmb-1"></div>
+            <div class="header-mobile-menu-button hmmb-2"></div>
+            <div class="header-mobile-menu-button hmmb-3"></div>
+          </div>
+        </div>
+        <!-- header logo -->
+        <div class="header-logo">
+          <img src="slike/logoWhite.png" id="header-logo-img" />
+          <h1 id="header-logo-gostilna">Gostilna</h1>
+          <h1 id="header-logo-krpan">KRPAN</h1>
+        </div>
+        <div class="header-links-ul">
+          <div class="header-links-li" id="selected-header-link">
+            <h1 id="header-links-li-a">DOMOV</h1>
+          </div>
+          <!-- ponudba parent -->
+          <div class="header-ponudba-parent-div">
+            <div class="header-links-li header-p">
+              <h1 id="header-links-li-a" style="cursor: default">PONUDBA</h1>
+            </div>
+            <div class="header-podunba-drop-menu">
+              <div class="hp-drop-sq"></div>
+              <div class="hp-drop-menu-item">Ponudba</div>
+              <div class="hp-drop-menu-item">Jedilnik</div>
+              <div class="hp-drop-menu-item">Catering</div>
+              <div class="hp-drop-menu-item">Zaključene družbe</div>
+              <div class="hp-drop-menu-item">Dogodki</div>
+              <div class="hp-drop-menu-item">Poroke</div>
+            </div>
+          </div>
+          <!-- ponudba parent end -->
+          <div class="header-links-li">
+            <h1 id="header-links-li-a">MALICE</h1>
+          </div>
+          <div class="header-links-li">
+            <h1 id="header-links-li-a">O NAS</h1>
+          </div>
+          <div class="header-links-li">
+            <h1 id="header-links-li-a">SLAŠČIČARNA</h1>
+          </div>
+          <div class="header-links-li">
+            <h1 id="header-links-li-a">DOSTAVA</h1>
+          </div>
+          <div class="header-links-li">
+            <h1 id="header-links-li-a">KONTAKT</h1>
+          </div>
+        </div>
+        <div class="header-right-div">
+          <div class="hrd-socials-div">
+            <div class="hrd-socials-icon" id="header-social-f">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="hrd-socials-icon" id="header-social-i">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="hrd-socials-icon">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+          </div>
+          <button class="hrd-button">JEDILNIK</button>
+        </div>
+      </div>
+      <!-- MAIN -->
+      <div class="main" id="header1">
+        <section class="splide" aria-label="Custom Arrows Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide" data-splide-interval="6000">
+                <div class="splide-div" id="splide-div-id-1">
+                  <div class="main-div">
+                    <h2 id="main-cell-h2">VEDNO ODLIČNO!</h2>
+                    <h1 id="main-cell-h1">GOSTILNA KRPAN</h1>
+                    <p id="main-cell-p">
+                      Od šmarske tradicije, prek avstroogrske kuhinje do okusov
+                      morij in drugih kontinentov.
+                    </p>
+                    <a href="#" id="main-cell-a">PONUDBA</a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide" data-splide-interval="6000">
+                <div class="splide-div" id="splide-div-id-2">
+                  <div class="main-div">
+                    <h2 id="main-cell-h2">VSAK DAN SVEŽE!</h2>
+                    <h1 id="main-cell-h1">MALICE</h1>
+                    <p id="main-cell-p">
+                      Preverite KRPANOVE MALICE in NOVE TEDENSKE MALICE, ki so
+                      na voljo vsak dan med 9:00 in 13:00.
+                    </p>
+                    <a href="#" id="main-cell-a">PONUDBA</a>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide" data-splide-interval="6000">
+                <div class="splide-div" id="splide-div-id-3">
+                  <div class="main-div">
+                    <h2 id="main-cell-h2">VEDNO ODLIČNO!</h2>
+                    <h1 id="main-cell-h1">ZAKLJUČENE DRUŽBE</h1>
+                    <p id="main-cell-p">
+                      So priložnost, ko želite ustvariti nepozaben spomin in
+                      dober vtis. Zato pogostitev prepustite nam.
+                    </p>
+                    <a href="#" id="main-cell-a">PONUDBA</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="splide__progress">
+            <div class="splide__progress__bar"></div>
+          </div>
+        </section>
+      </div>
+      <!-- main-DESC -->
+      <div class="main-desc">
+        <div class="main-desc-container">
+          <div class="mdc-column">
+            <div class="mdc-column1">
+              <h2 id="mdc-column1-h2">Dobrodošli</h2>
+              <h1 id="mdc-column1-h1">Gostilna Krpan</h1>
+              <p id="mdc-column1-p">
+                Za lačne in žejne smo v naših krajih vedno znali dobro
+                poskrbeti. Združili smo nekatere najbolj priljubljene jedi v
+                Sloveniji, pristno domačo kulinariko in mednarodne kulinarične
+                uspešnice, vse skupaj pod vodstvom mlade, zagnane ekipe.
+              </p>
+              <button id="mdc-column1-button">PONUDBA</button>
+            </div>
+          </div>
+          <div class="mdc-column">
+            <div class="mdc-column2">
+              <img src="slike/mainDesc.PNG" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- OKUSNE MALICE -->
+      <div class="okusne-malice-main">
+        <div class="omm-container">
+          <h2 id="omm-h2">— VSAK DAN SVEŽE —</h2>
+          <h1 id="omm-h1">OKUSNE MALICE</h1>
+        </div>
+      </div>
+      <!-- OKUSNE MALICE DESC -->
+      <div class="okusne-malice-main-desc">
+        <div class="ommd-container">
+          <div class="ommd-p-div">
+            <p id="ommd-p">
+              Preverite KRPANOVE MALICE in NOVE TEDENSKE MALICE za 24. 4. - 29.
+              4. 2023, ki so na voljo vsak dan med 9:00 in 13:00. Dostavimo jih
+              tudi v SLUŽBO ali na DOM, ali jih prevzemite v naši gostilni.
+              Podatke o alergenih dobite pri strežnem osebju.
+            </p>
+          </div>
+          <div class="ommd-ul">
+            <div class="ommd-li" id="ommd-1">PONEDELJEK</div>
+            <div class="ommd-li" id="ommd-2">TOREK</div>
+            <div class="ommd-li" id="ommd-3">SREDA</div>
+            <div class="ommd-li" id="ommd-4">ČETRTEK</div>
+            <div class="ommd-li" id="ommd-5">PETEK</div>
+            <div class="ommd-li" id="ommd-6">SOBOTA</div>
+            <div class="ommd-li" id="ommd-7">TEDENSKA PONUDBA</div>
+          </div>
+          <!-- HIDDEN -->
+          <div class="ommd-hidden-div" id="ommd-1">
+            <!-- 1 -->
+            <div class="ommd-hidden-div-item-container">
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1">
+                  1. Pečena svinjska rebra, zeljne krpice, solata (*1,3,9)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  2 Piščančji golaž bel polenta, solata (*1,7,9)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  3. Ocvrta cvetača, tatarska omaka, dolar krompir, solata
+                  (*1,3,7,10)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="ommd-hidden-div" id="ommd-2">
+            <div class="ommd-hidden-div-item-container">
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1">
+                  1. Ocvrte piščančje krače, pražen krompir, solata (*1,3)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  2. Svinjski ragu s šparglji in korenjem, dušen riž, solata
+                  (*1,9,10)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  3. Pehtranov štrukelj, domač kompot (*1,3,7)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="ommd-hidden-div" id="ommd-2">
+            <div class="ommd-hidden-div-item-container">
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  1. Piščančje tortilije, nacho omaka, solata (*1,7,9)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  2. Bograč, sladica (*1,3,7)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  3 Frtalja s čemažem, bučkami in papriko, solata (*1,3,7)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="ommd-hidden-div" id="ommd-2">
+            <div class="ommd-hidden-div-item-container">
+              <div class="ommd-hidden-div-item">
+                <h1 id="cetrtek-hidden">
+                  <span style="font-weight: 700"> &#183;</span> PRAZNIČNO KOSILO
+                </h1>
+              </div>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="ommd-hidden-div" id="ommd-2">
+            <div class="ommd-hidden-div-item-container">
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  1. Pleskavica na žaru, prebranec, kajmak, solata (*1,7,9)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  2. File soma v pečici z zelenjavo uhan krompir, solata
+                  (*1,4,9)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  3. Gobov lonec z ajdovo kašo, sladica (*1,3,7,12)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="ommd-hidden-div" id="ommd-2">
+            <div class="ommd-hidden-div-item-container">
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  1. Puranji file v drobnjakovi omaki, kus kus z zelenjavo,
+                  solata (*1)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">7,00 &euro;</div>
+              </div>
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="ommd-hidden-div" id="ommd-2">
+            <div class="ommd-hidden-div-item-container">
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  1. Mexico burger, žlebast krompir, salsa (*1,3,7)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">9,00 &euro;</div>
+              </div>
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1-second">
+                  2. Solatni krožnik s kumarami, čičeriko, olivami, svežo
+                  papriko in ocvrtim piščancem (*1,3,7)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">9,00 &euro;</div>
+              </div>
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1">
+                  3. Solatni krožnik (piščančji trakci – žar /tuna/feta sir)
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">8,00 &euro;</div>
+              </div>
+              <div class="ommd-hidden-div-item">
+                <h1 id="ommd-hidden-div-item-h1">
+                  4. Dunajski zrezek, pomfri, solata
+                </h1>
+                <p id="ommd-hidden-div-item-p">Dnevna juha GRATIS</p>
+                <div class="ommd-hidden-div-item-cena">8,00 &euro;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- IZBRANI OKUSI -->
+      <div class="okusne-malice-main2">
+        <div class="omm-container">
+          <h2 id="omm-h2">— IZBRANI OKUSI —</h2>
+          <h1 id="omm-h1" class="omm-special-class">V PRIJETNEM AMBIJENTU</h1>
+        </div>
+      </div>
+      <!-- KULINARIKA -->
+      <div class="kulinarika">
+        <div class="kulinarika-container">
+          <div class="kc-item">
+            <img src="slike/kc1.PNG" alt="" id="kc-item-img" />
+            <h1 id="kc-item-h1">ODLIČNA KULINARIKA</h1>
+            <p id="kc-item-p">
+              Združili smo najbolj priljubljene jedi v Sloveniji, pristno domačo
+              kulinariko in mednarodne kulinarične uspešnice.
+            </p>
+          </div>
+          <div class="kc-item">
+            <img src="slike/kc2.PNG" alt="" id="kc-item-img" />
+            <h1 id="kc-item-h1">SVEŽE SESTAVINE</h1>
+            <p id="kc-item-p">
+              Prisegamo na kakovost in slovensko poreklo sestavin, zato imajo
+              naše jedi tako znan, domač okus.
+            </p>
+          </div>
+          <div class="kc-item">
+            <img src="slike/kc3.PNG" alt="" id="kc-item-img" />
+            <h1 id="kc-item-h1">LOKALNA VINA</h1>
+            <p id="kc-item-p">
+              Oplemenitite jedi z izbranimi vini lokalnih vinogradnikov iz
+              Šmarsko-virštanjskega vinorodnega podokoliša.
+            </p>
+          </div>
+          <div class="kc-item">
+            <img src="slike/kc4.PNG" alt="" id="kc-item-img" />
+            <h1 id="kc-item-h1">DOMAČE SLADICE</h1>
+            <p id="kc-item-p">
+              Naj vas zapeljejo sladice iz naše hišne slaščičarne, ki jih
+              vsakodnevno pripravljamo le iz najboljših sestavin.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER -->
+      <div class="footer">
+        <div class="footer-container">
+          <!-- first row -->
+          <div class="footer-link-row">
+            <div class="footer-footer-link-row-item">
+              <img src="slike/footerLogo.PNG" alt="" id="footer-row-logo" />
+            </div>
+            <div class="footer-footer-link-row-item">
+              <h1 id="footer-links-h1">O NAS</h1>
+              <p id="footer-links-p">
+                Gostilna Krpan vas bo popeljala od šmarske tradicije, prek
+                avstroogrske kuhinje do okusov morij in drugih kontinentov.
+                Vedno odlično!
+              </p>
+            </div>
+            <div class="footer-footer-link-row-item">
+              <h1 id="footer-links-h1">NASLOV</h1>
+              <p id="footer-links-p">
+                Rogaška cesta 40, <br />
+                3240 Šmarje pri Jelšah<br /><br />
+              </p>
+              <p id="footer-links-p">
+                T: 03 81 71 100 <br />
+                E: info@gostilnakrpan.com
+              </p>
+            </div>
+            <div class="footer-footer-link-row-item">
+              <h1 id="footer-links-h1">DELOVNI ČAS</h1>
+              <p id="footer-links-p">PON – ČET: 09.00 – 21.00</p>
+              <p id="footer-links-p">PET – SOB: 09.00 – 22.00</p>
+              <p id="footer-links-p">NED, PRAZNIKI: 09.00 – 21.00</p>
+            </div>
+          </div>
+          <!-- copyright-row -->
+          <div class="footer-copyright-row">
+            <div class="footer-copy-div">
+              <p id="footer-copy-div-p">
+                2023 © Gostilna Krpan | © Vse pravice pridržane |
+                <span id="footer-copy-link">Avtorji</span> |
+                <span id="footer-copy-link">Vavčer</span> |
+                <span id="footer-copy-link">Varovanje podatkov</span>
+              </p>
+            </div>
+            <div class="footer-socials-div">
+              <div class="hrd-socials-icon-footer" id="header-social-f">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="hrd-socials-icon-footer" id="header-social-i">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="hrd-socials-icon-footer">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+            </div>
+          </div>
+          <!-- footerslikce -->
+          <div class="footer-slikce">
+            <img src="slike/footerSlikce.PNG" alt="" id="footer-slikce-img" />
+          </div>
+          <!-- footer izdelava -->
+          <div class="footer-izdelava-div">
+            <p id="footer-izdelava-p">
+              Izdelavo spletne strani sofinancirata Republika Slovenija in
+              Evropska unija iz Evropskega sklada za regionalni razvoj preko
+              Vavčerja za digitalni marketing.
+            </p>
+            <div class="footer-socials-div2">
+              <div class="hrd-socials-icon-footer" id="header-social-f">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="hrd-socials-icon-footer" id="header-social-i">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="hrd-socials-icon-footer">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COOKIES -->
+      <div class="cookies">
+        <div class="cookies-con">Nastavitve zasebnosti</div>
+      </div>
+      <!-- cookies2 -->
+      <div class="cookies2">
+        <div class="cookies-container">
+          <h1 id="cookies-x"><i class="fa-solid fa-xmark"></i></h1>
+          <h1 id="cookies-h1">Pregled zasebnosti</h1>
+          <p id="cookies-p">
+            Ta spletna stran uporablja piškotke za izboljšanje vaše uporabniške
+            izkušnje. Mednje sodijo nujni piškotki, ki se samodejno shranijo v
+            vašemu brskalniku, saj so bistveni za normalno delovanje strani.
+            Uporabljamo pa tudi ne-nujne piškotke, ki nam pomagajo analizirati
+            in razumeti, kako uporabniki uporabljajo stran. Ti se bodo v vaš
+            brskalnik shranili le ob vaši privolitvi. Imate tudi možnost, da
+            sprejem teh piškotkov zavrnete. V tem primeru se lahko zgodi, da
+            zavrnitev nekaterih piškotkov lahko negativno vpliva na vašo
+            uporabniško izkušnjo.
+          </p>
+          <div class="cookies-buttons-div">
+            <button id="cookies-button-black" class="cookies-sprejmi-button">
+              Sprejmi
+            </button>
+            <button id="cookies-button" class="cookies-zavrni-button">
+              Zavrni
+            </button>
+            <button id="cookies-button">Možnosti</button>
+          </div>
+          <div class="cookies-link">
+            <a href="#" id="cookies-link-a">Varovanje podatkov in piškotki</a>
+          </div>
+        </div>
+      </div>
+      <!-- anchor arrow button -->
+      <div class="anchor-arrow-button">
+        <button id="anchor-arrow-button-button">
+          <i class="fa-solid fa-angle-up"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- SLIDE SCRipt -->
+    <script src="splide-4.1.3/splide-4.1.3/dist/js/splide.min.js"></script>
+    <script>
+      var splide = new Splide(".splide", {
+        type: "fade",
+        rewind: true,
+        autoplay: true,
+        speed: 3000,
+        rewindSpeed: 10000,
+        pauseOnFocus: false,
+      });
+
+      splide.mount();
+    </script>
+  </body>
+</html>
